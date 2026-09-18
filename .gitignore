@@ -1,0 +1,14 @@
+@"
+build/
+.vscode/
+.vs/
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.pdb
+*.exe
+CMakeFiles/
+CMakeCache.txt
+"@ | Set-Content .gitignore
